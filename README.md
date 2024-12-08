@@ -70,9 +70,9 @@ Tab1:AddButton({
     end    
 })
 Tab1:AddButton({
-	Name = "Plant",
+	Name = "Plant", 
 	Callback = function()
-    	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-316.492859, -67.8217468, -2028.47546, 0.966099441, 4.67094008e-09, -0.258170217, -3.51835094e-09, 1, 4.92645214e-09, 0.258170217, -3.85110921e-09, 0.966099441)
+    	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2199.05981, 16.2435379, -3326.05444, 0.998570502, 3.79036136e-09, -0.0534502007, -3.05782555e-09, 1, 1.37867948e-08, 0.0534502007, -1.36036453e-08, 0.998570502)
         OrionLib:MakeNotification({
             Name = "Teleport",
             Content = "Teleport To Plant",
@@ -82,11 +82,11 @@ Tab1:AddButton({
     end    
 })
 Tab1:AddButton({
-	Name = "Corn",
+	Name = "Corn", --
 	Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2199.05981, 16.2435379, -3326.05444, 0.998570502, 3.79036136e-09, -0.0534502007, -3.05782555e-09, 1, 1.37867948e-08, 0.0534502007, -1.36036453e-08, 0.998570502)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-171.547043, 48.5520935, 447.17688, -0.584445894, 4.76066866e-08, -0.811432719, 1.10644893e-09, 1, 5.78729775e-08, 0.811432719, 3.2925815e-08, -0.584445894)
         OrionLib:MakeNotification({
-            Name = "Teleport",
+            Name = "Teleport",-- 
             Content = "Teleport To Corn",
             Image = "rbxassetid://4483345998",
             Time = 5
