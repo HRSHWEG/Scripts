@@ -1078,7 +1078,7 @@ Tab4:AddToggle({
 Tab4:AddButton({
 	Name = "Refresh Dropdown",
 	Callback = function()
-        drop:Refresh(Plr)
+        drop:Refresh()
     end    
 })
 Tab4:AddButton({
