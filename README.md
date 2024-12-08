@@ -1149,16 +1149,12 @@ Tab5:AddButton({
 game:GetService("RunService").RenderStepped:Connect(function()
 	for i, v in pairs(game.Workspace.PlayerVehicle:GetChildren()) do
 		if v:IsA("Model") then  
-			if v:GetAttribute("Owner") == game.Players.LocalPlayer.Name then
-				v:SetAttribute("Health", 100)
-			end
+			v:SetAttribute("Health", 100)
 		end
 	end
 	for i, v in pairs(game.Workspace.PlayerVehicle:GetChildren()) do
 		if v:IsA("Model") then  
-			if v:GetAttribute("Owner") == game.Players.LocalPlayer.Name then
-				v:SetAttribute("Fuel", 100)
-			end
+			v:SetAttribute("Fuel", 100)
 		end
 	end
 end)
