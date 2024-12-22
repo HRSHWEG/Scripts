@@ -1144,6 +1144,12 @@ Tab5:AddTextbox({
 		game.Workspace.Character[game.Players.LocalPlayer.Name].Humanoid.JumpPower = Speed
 	end	  
 })
+Tab5:AddButton({
+	Name = "review",
+	Callback = function()
+        game.Workspace.Character[game.Players.LocalPlayer.Name].Humanoid.Health = 0
+    end    
+})
 
 local FarmName = nil
 
