@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+[local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "THUNDER HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "THUNDER HUB SOME TOWN"})
 
 local dbView = false
@@ -1722,3 +1722,4 @@ game:GetService("RunService").RenderStepped:Connect(function()
 		end
 	end
 end)
+](https://raw.githubusercontent.com/HRSHWEG/nffbouherrbuteubutb/refs/heads/main/README.md)
